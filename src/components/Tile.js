@@ -32,9 +32,6 @@ class Tile extends React.Component  {
     <div>
       <span className="date">Specialty: {this.props.specialty}</span>
     </div>
-    <div className="description">
-      <p>Greased: {this.props.greased ? "Yes" : "No"}</p>
-    </div>
     <button className= "hideButton"onClick={()=>this.props.hideHog(this.props.id)}>Hide</button>
   </div>
 </div>
@@ -44,11 +41,14 @@ class Tile extends React.Component  {
     <div className="maincards">
       <p>Weight: {this.props['weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water']}</p>
       <p>Highest Medal Achieved: {this.props['highest medal achieved']}</p>
+        <div className="description">
+          <p>Greased: {this.props.greased ? "Yes" : "No"}</p>
+        </div>
     </div>
 
 
     return (
-      <div className = "card" onClick={this.handleClick}>
+      <div className = "card hvr-grow" onClick={this.handleClick}>
        {this.state.isHidden? front : back}
       </div>
     );
