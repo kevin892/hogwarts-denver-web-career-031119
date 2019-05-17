@@ -1,0 +1,66 @@
+.navButton {
+cursor: pointer;
+box-shadow: 5px 5px grey;
+color: #fff !important;
+text-transform: uppercase;
+background: green;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+margin: 10px;
+
+}
+
+.navButton:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+.gresButton:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+.gresButton {
+  box-shadow: 5px 5px grey;
+  cursor: pointer;
+  color: #fff !important;
+  text-transform: uppercase;
+  background: blue;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  margin: 10px;
+
+}
+
+.navWrapper {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+.resetButton{
+  box-shadow: 5px 5px grey;
+  cursor: pointer;
+  position: absolute;
+  right: 70px;
+  top: 175px;
+  color: #fff !important;
+  text-transform: uppercase;
+  background: #ed3330;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  margin: 20px;
+  float: right;
+}

@@ -21,7 +21,7 @@
 }
 
 .headerText {
-  color: #F5A9BC;
+  color: black;
   font-size: 3em;
   margin: 0% 2% 0% 2%;
 }
@@ -63,8 +63,8 @@ ul {
 }
 
 .subtleText {
-  color: #D1D1D1;
-  font-size: .75em; 
+  color: black;
+  font-size: .75em;
 }
 
 
@@ -103,7 +103,7 @@ ul {
 }
 
 .pigTile h3 {
-  color: #FBB;
+  color: black;
 }
 .minPigTile {
   width: 250px;

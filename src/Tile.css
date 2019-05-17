@@ -1,0 +1,36 @@
+.card{
+  border: 1px solid black;
+  height: 357px;
+  width: 252px;
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  margin: 6px;
+  background-color: #fff591;
+  border-radius: 25px;
+}
+
+.piggyName {
+  font-size: 23px;
+  font-family: 'Baloo Bhai', cursive;
+}
+ .hideButton{
+   font-size: 12px;
+   color: red;
+   /* margin-top: 10px */
+
+ }
+.content {
+  background-color: #fff591;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+.image {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.maincards {
+  font-size: 30px;
+  background-color: #fff591;
+  border-radius: 25px;
+}
